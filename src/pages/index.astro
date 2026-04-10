@@ -7,8 +7,25 @@ title: "Image Display"
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Image Display</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
-    <img src="/nora-intro.png" alt="Displayed Image" style="max-width: 100%; height: auto;" />
+    <img src="/nora_intro.png" alt="Displayed Image" />
 </body>
 </html>

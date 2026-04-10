@@ -9,6 +9,7 @@
 	"scripts": {
 		"astro": "astro",
 		"build": "astro build",
-		"dev": "astro dev"
+		"dev": "astro dev",
+		"deploy": "echo 'Deployed via GitHub Pages'"
 	}
 }
