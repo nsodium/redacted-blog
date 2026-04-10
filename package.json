@@ -12,9 +12,3 @@
 		"dev": "astro dev"
 	}
 }
-		"deploy": "wrangler deploy",
-		"dev": "astro dev",
-		"preview": "astro build && wrangler dev"
-	},
-	"type": "module"
-}
