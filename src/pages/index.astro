@@ -1,5 +1,6 @@
 ---
-title: "Image Display"
+const baseUrl = import.meta.env.BASE_URL;
+const imagePath = `${baseUrl}nora_intro.png`;
 ---
 
 <html lang="en">
@@ -26,6 +27,6 @@ title: "Image Display"
     </style>
 </head>
 <body>
-    <img src="./nora_intro.png" alt="Displayed Image" />
+    <img src={imagePath} alt="Displayed Image" />
 </body>
 </html>
